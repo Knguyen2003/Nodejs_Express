@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_expressjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knguyen2003/Nodejs_Express.git"
+  },
+  "keywords": [
+    "khoinguyen",
+    "nguyen",
+    "nodejs",
+    "express"
+  ],
+  "author": "khoinguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knguyen2003/Nodejs_Express/issues"
+  },
+  "homepage": "https://github.com/Knguyen2003/Nodejs_Express#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
