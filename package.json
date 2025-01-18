@@ -1,10 +1,11 @@
 {
   "name": "nodejs_expressjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start" : "nodemon --inspect index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "sass --watch src/resources/scss:src/public/css --no-source-map"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,12 @@
   "homepage": "https://github.com/Knguyen2003/Nodejs_Express#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "sass": "^1.83.4"
   }
 }

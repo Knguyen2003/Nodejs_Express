@@ -1,0 +1,6 @@
+@use 'variables';
+
+.container{
+    color: variables.$red-color;
+    font-size: bold;
+}
